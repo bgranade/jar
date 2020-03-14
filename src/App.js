@@ -131,7 +131,7 @@ function App(props) {
 
     axios({
         method: 'post',
-        url: 'http://polar-castle-88358.herokuapp.com/donate',
+        url: 'https://polar-castle-88358.herokuapp.com/donate',
         data: JSON.stringify({user_id: cookie.load("user_id"), charityChoice: charityChoice, donation: donation, token: token}),
         headers: {'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
         })

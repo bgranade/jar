@@ -97,6 +97,10 @@ function UserDonations(props) {
         <br/>
         <br/>
         You have made {userDonations.length} donations.
+
+        <br/>
+        <br/>
+        Well Sh*T, You're So Giving!
       </p>    
       </>
   );
